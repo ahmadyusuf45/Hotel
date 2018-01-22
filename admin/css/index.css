@@ -1,0 +1,162 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: segoe ui;
+}
+body{
+	background-color: #000;
+}
+.menu_kiri{
+	position: fixed;
+	height: 700px;
+	float: left;
+	width: 15.8%;
+	background-color: #232121;
+}
+.menu_kiri section{
+	height: 100%;
+	width: auto;
+}
+.menu_kiri section a{
+	color: #fff;
+	font-size: 130%;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	margin: 5px 0px;
+	text-align: left;
+	transition: all 0.3s;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+.menu_kiri img{
+	width: 20%;
+}
+.menu_kiri section a:hover{
+	background-color: #777;
+}
+.profil{
+	background-color:rgb(51,51,51);
+}
+.menu_kiri .profil img{
+	margin-top: 2%;
+	width: 140%;
+	margin-left: -24%;
+}
+.profil p{
+	text-align: center;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 200%;
+}
+.menu_kiri .logo img{
+	width: 140%;
+	margin-left: -24%;
+}
+.kepala{
+	width: 84.5%;
+	height: 40%;
+	background: #fff;
+	float: right;
+	box-shadow: -1px 3px 24px -2px rgba(0,0,0,0.75);
+}
+.kepala section{
+	width: auto;
+	height: 50px;
+}
+.kepala section a{
+	float: right;
+	color: #000;
+	text-transform: capitalize;
+	text-decoration: none;
+	display: block;
+	margin:  5px 8px ;
+	font-size: 190%;
+	cursor: pointer;
+}
+.kepala .item{
+	float: left;
+}
+.kepala .item span{
+	margin-left: 8px;
+	margin-top: 8px;
+	font-size: 210%;
+}
+.content{
+	width: 83.7%;
+	max-width: 100%;
+	max-height: auto;
+	background: #fff;
+	height: auto;
+	float: left;
+	margin-top: 8px;
+	margin-left: 16%;
+	padding: 10px;
+	box-shadow: -1px 3px 24px -2px rgba(0,0,0,0.75);
+}
+.content h1{
+	font-weight: 100;
+	font-size: 30px;
+	margin-top: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+}
+#kiri{
+	float: right;
+}
+.navbar ul li a:hover{
+	background-color: transparent;
+}
+.box{
+	margin: 5px;
+	float: left;
+	width: 220px;
+	height: 105px;
+	background-color: #CCCCFF;	
+}
+.icon-box{
+	float: left;
+	width: 110px;
+	height: 91px;
+}
+.icon-box img{
+	margin-top: 14px;
+	width: 105px;
+	height: 75px;
+	margin-left: 6px;
+}
+.box-disk{
+	float: left;
+	width: auto;
+	height: auto;
+}
+.box-disk h3{
+	margin-top: 35px;
+	margin-left: 39px;
+	color: #fff;
+}
+#merah{
+	background-color: rgb(255,0,0);
+}
+#biru{
+	background-color: #3399FF;
+}
+#unggu{
+	background-color: #9900CC;
+}
+#kuning{
+	background-color: #33FF33;
+}
+@media screen and (max-width: 770px){
+	.menu_kiri{
+		display: none;
+	}
+	.content{
+		width: 100%;
+		margin-left: 0%;
+	}
+	.kepala{
+		width: 100%;
+	}
+}

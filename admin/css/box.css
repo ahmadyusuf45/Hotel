@@ -1,0 +1,65 @@
+.bg-thick{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.7);
+	top: 0;
+	left: 0;
+	color: #fff;
+	z-index: 6000;
+}
+.in-thick{
+	width: 50%;
+	height: auto;
+	padding: 20px;
+	background-color: #fff;
+	margin: 35px auto;
+	border:1px solid#fff;
+}
+.in-thick h1{
+	text-align: center;
+	border-bottom: 1px solid#ddd;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #555
+}
+.in-thick h3{
+	border:5px solid#fff;
+	float: right;
+	color: #fff;
+	cursor: pointer;
+	background-color: rgb(51,51,51);
+	padding: 10px 16px;
+	margin-right: -50px;
+	margin-top: -100px;
+	border-radius: 100px;
+	text-align: center;
+}
+.in-thick h3:hover{
+	background-color: #c92e2e;
+}
+.in-thick p{
+	margin-bottom: 2px;
+	text-transform: capitalize;
+	color: #000;
+}
+.in-thick input[type=file]{
+	width: 100%;
+}
+.in-thick input[type=text]{
+	text-indent: 5px;
+	height: 30px;
+	width: 100%;
+	outline: none;
+	border: 1px solid#ddd;
+}
+.in-thick textarea{
+	padding: 5px;
+	outline: none;
+	border:1px solid#ddd;
+	width: 100%;
+	height: 80px;
+}
+.in-thick button{
+	margin-top: 10px;
+}
