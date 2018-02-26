@@ -12,7 +12,7 @@
     $judul ="Input";
     $form = "simpan_hotel";
     $value = "Simpan";
-    $map_hotel = "display : show";
+    $map_hotel = "display : block";
   }
   $qw = $proses->tampil("*","hotel"," WHERE id_hotel = '$id' ");
   $data = $qw->fetch();
